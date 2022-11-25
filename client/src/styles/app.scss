@@ -1,0 +1,66 @@
+@import "variables";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.2;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background-color: rgba(0, 0, 0, .25);
+  color: #fff;
+}
+
+.app {
+  height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+  background-color: var(--light);
+}

@@ -1,0 +1,12 @@
+@import "variables";
+
+.setting-bar {
+  height: var(--toolbar-height);
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: var(--toolbar-height);
+  width: 100%;
+  box-shadow: var(--box-shadow);
+}

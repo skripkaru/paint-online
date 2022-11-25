@@ -1,0 +1,58 @@
+@import "variables";
+
+.toolbar {
+  height: var(--toolbar-height);
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: var(--box-shadow);
+  z-index: 999;
+
+  &__btn {
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .brush {
+    background-image: url("../assets/images/brush.svg");
+  }
+
+  .rect {
+    background-image: url("../assets/images/rect.svg");
+  }
+
+  .circle {
+    background-image: url("../assets/images/circle.svg");
+  }
+
+  .eraser {
+    background-image: url("../assets/images/eraser.svg");
+  }
+
+  .line {
+    background-image: url("../assets/images/line.svg");
+  }
+
+  .undo {
+    margin-left: auto;
+    background-image: url("../assets/images/undo.svg");
+  }
+
+  .redo {
+    background-image: url("../assets/images/redo.svg");
+  }
+
+  .save {
+    margin-right: 10px;
+    background-image: url("../assets/images/save.svg");
+  }
+}
